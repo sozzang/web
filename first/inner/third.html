@@ -1,0 +1,28 @@
+
+<!-- 폴더 안에 inner 폴더를 만들어보자 
+inner과 first는 다른 폴더라서 찾을 수가 없음
+1. root( / ) : 최상위를 기준으로 first 폴더로 가서 찾기
+ <a href = "/"> 첫번째 페이지로!! </a>
+ <a href = "/first/firts.html"> 첫번째 페이지로!! </a>
+
+2.현재경로( . ) :내 경로 기준으로 상위 폴더로 가서 찾기
+ <a href = "../second.html"> 두번째 페이지로!! </a>
+-->
+
+<!DOCTYPE html> 
+<html> 
+ <head>
+  <meta charset = "utf-8" /> 
+  <title> 세번째 페이지 </title>
+ </head>
+ <body>
+   <p> 귀만 빼꼼 내놓고 자는 종이</p>
+   <img src = "../img/종이2.jpg" alt ="종이" />
+   <img src = "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fmusic-phinf.pstatic.net%2F20220801_207%2F1659341740934nQkjW_JPEG%2F%25C4%25BF%25B9%25F61.jpg%22&type=navermain_n260_260"/>
+   <p> 첫번째 두번째 페이지로 이동할 수 있는 <br/> 하이퍼링크도 맹글어봅시다.</p>
+   <a href = "/first/first.html"> 첫번째 페이지로!! </a>
+   <a href = "../second.html"> 두번째 페이지로!! </a>
+   <a href = "http://www.naver.com"> 네이버로 !! </a>
+   
+ </body>
+</html>

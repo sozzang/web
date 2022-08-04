@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html> 
+ <head>
+  <meta charset = "utf-8" /> 
+  <title> 태그 연습하깅 </title>
+  <style>
+   header{
+  background-color : #a9a9a9; 
+  border: 5px solid pink;
+  }
+  
+  #white-heading{ 
+  color : #fff;
+  text-align : center;
+  }
+  
+  .red-heading {
+  color : red;
+  }
+  
+  nav ul {
+  display: flex;
+  gap : 30px;
+
+  }
+  
+  .container{
+  display: flex;
+  }
+  
+  main{
+  flex : 3;
+  background-color : green;
+  }
+  
+  aside{
+  flex : 1;
+  background-color : beige;
+
+  }
+  
+  </style>
+ </head>
+ <body>
+     <header > 
+          <h1 id = "white-heading">헤더영역</h1>
+		  <!-- id를 달아줘서 헤더영역< 여기만 따로 설정 할 수 있음 
+		   id는 중복되지 않게 유일하게 한개만 적용 가능함 -->
+		  
+		  <h1 class = "red-heading"> 헤딩이 두개면? </h1>
+		   <!-- class를 달아줘서 헤더영역< 여기만 따로 설정 할 수 있음 
+		   class는 여러개의 요소가 같은 class이름을 가질 수 있음 -->
+		  
+ </header>
+ 
+ <nav>
+ 
+ <!-- ul은 동그라미  -->
+ <ul>
+ <li> <a href = "first.html"> 첫번째</a> </i>
+  <li> <a href = "second.html"> 두번째</a>  </i>
+   <li><a href = "inner/third.html"> 세번째</a>  </i>
+ </ul>
+ 
+ <!-- ol은 숫자 -->
+ <!-- <ol>  -->
+ <!-- <li> 아이템 </li> -->
+  <!-- <li> 아이템 </li> -->
+   <!-- <li> 아이템 </li> -->
+ <!-- </ol> -->
+ </nav>
+ 
+ <div class ="container">
+     <main> 
+	 <h1 class = "red-heading"> 메인영역 </h1>
+	 <article>
+         <h2> 글 내용 요약 제목 </h2>
+         <p> ㅎ_ㅎ </p>	 
+	 </article>
+	 </main>
+     <aside> 사이드영역 </aside>	
+</div>
+	
+     <footer> 푸터영역 </footer>
+ 
+ </body>
+</html>

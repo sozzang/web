@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+ <head>
+  <meta charset = "utf-8" />
+  <title> 입력연습 </title> 
+ 
+ </head>
+ <body>
+ <!-- input은 br처럼 열고닫고를 <> 안에서 같이 할 수 있음
+ 사용자가 입력하는 문구의 종류를 정해줄 수 있음 
+   <input/>
+   <input type = "text" />
+   <input type = "password" />
+   <input type = "number" />
+   <input type = "range" />
+   
+   <input type = "date" />
+   <input type = "month" />
+   <input type = "week" />
+   <input type = "time" />
+	
+   <input type = "color" />
+   <input type = "file" />
+ -->   
+ 
+ 
+   <form>
+   <!-- <input type = "text" / name = "searchline" > -->
+   <!-- <input type = "text" / name = "param" > -->
+   <!-- <input type = "submit" /> -->
+   <!-- text에 hello라고 치고 '제출'을 누르면 주소창에 html?searchline=제출이 나오는데 
+    searchline=hello <- 여기가 html의 파라미터 부분이 됨
+	searchline=hello&param=world -->
+	<!-- 위처럼만 적으면 사용자가 어디에 뭘 적어야하는지 모르기 때문에 레이블을 달아 주고
+    placeholder을 통해 뭘 입력할지 힌트를 줄 수 있음	-->
+	<label for = "searchline"> 검색어 </label>
+    <input id = "searchline" type "text" name = "searchline" placeholder = "검색어를 입력하시오."/>
+	
+	<label>두번째 파라미터 <input type ="text" name = "param" placeholder = "검색어를 입력하시오."/> </label>
+  
+  <label><input type = "checkbox" name = "mycheck"  value = "1st"/> 1번 </label>
+  <label><input type = "checkbox" name = "mycheck" value = "2bd"/> 2번 </label>
+  <label><input type = "checkbox" name = "mycheck" value = "3rd"/> 3번 </label>
+  
+  
+  
+  <input type = "radio" name = "radiochoice" value ="radio1" checked>
+  <input type = "radio" name = "radiochoice" value ="radio2">
+  <input type = "submit" />
+   </form>
+
+ </body>
+</html>
