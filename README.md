@@ -23,4 +23,4 @@ tomcat폴더->webapps->새폴더생성(영소문자)->만들어둔 html파일을
 검색창 옆에 동그란 화살표 누르면 바뀜
 
 효정이언니꺼 보고싶으면
-localhost를 언니 ipv로 넣어서 들어가면 됨
+localhost를 언니 ipv4로 넣어서 들어가면 됨
